@@ -1,0 +1,25 @@
+#quote {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1px;
+}
+
+#quote > div {
+    display: flex;
+    flex-direction: column;
+    width:30px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black
+}
+
+.space {
+    border: none;
+}
+
+span {
+    text-align: center;
+}
