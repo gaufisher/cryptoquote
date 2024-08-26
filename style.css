@@ -6,8 +6,17 @@
 
 #quote > div {
     display: flex;
+}
+
+.word {
+    padding-inline: 20px;
+}
+
+.character {
+    display: flex;
     flex-direction: column;
-    width:30px;
+    width: 20px;
+    margin-inline: 5px;
 }
 
 input {
@@ -16,7 +25,7 @@ input {
     border-bottom: 2px solid black
 }
 
-.space {
+.non-alphabetic {
     border: none;
 }
 
