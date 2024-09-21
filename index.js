@@ -27,6 +27,10 @@ function handleInput(e) {
             characterIndex++;
         }
         quote.appendChild(wordDiv);
+        const spaceDiv = document.createElement('div');
+        spaceDiv.appendChild(makeCharacterDiv(' '));
+        spaceDiv.classList.add('space');
+        quote.appendChild(spaceDiv);
         characterIndex++;
     }
     createCount();
